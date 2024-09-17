@@ -7,13 +7,23 @@ public class pattern1 {
         Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     sc.close();
-    for(int i = 0; i<n; i++){
-        for(int j = 0; j<n; j++){
-            System.out.print("* ");
-
-        }System.out.println();
-    }
+    
+    int i = 0;
+    while(i<n){
+        int x = 0;
+        while(x<n-i+1){
+        System.out.print("  ");
+        x++;
+        }
+        int j = n - i;
+        while(j<=n){
+            System.out.print(j+" ");
+            j++;
+        }
+        System.out.println();
+        i++;
     }
     
+}
 }
 

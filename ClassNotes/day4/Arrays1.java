@@ -14,7 +14,13 @@ public class Arrays1 {
         System.out.println(arr[0]); //*'[I@372f7a8d' ia the output and it defines the address of the array 
         arr[0] = 8;
         int [] other = arr; //? The array created is only once so the address will remain same
+
+        //? We cannot get the address of any particular index of an array
+        //? But it can be calculated using formula : 
+                    //! base + 1*dataSize
         System.out.println(other[0]);
+
+        int arr1[] = new int[8];  //? This is known as the C-type declaration
     }
 }
     
