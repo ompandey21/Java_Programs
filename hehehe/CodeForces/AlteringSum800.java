@@ -1,4 +1,4 @@
-package hehehe.CodeForces;
+package CodeForces;
 
 import java.util.Scanner;
 

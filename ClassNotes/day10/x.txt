@@ -1,0 +1,31 @@
+~$ echo "Enter the Number"
+Enter the Number
+~$ read n
+55
+~$ if [ $(($n % 2)) -eq 0 ]
+ then
+ echo "$n number is Even Number"
+ else
+ echo "$n number is Odd Number"
+ fi
+read digit
+255
+sum=0
+while [ $digit -gt 0 ]
+ do
+ mod=$((digit % 10))
+ sum=$((sum + mod))
+ digit=$((num / 10))
+ done
+~$ 
+for((i=1; i<=100; i++))
+ do
+ echo $i
+ done
+5
+i=1
+while [ $i -le 10 ]
+do
+echo $i
+i=$(($i+1))
+done

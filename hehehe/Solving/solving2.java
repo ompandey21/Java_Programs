@@ -34,7 +34,7 @@ public class solving2 {
                 colAdder = -1;
                 rowAdder = 0;
             }
-            if()
+            // if()
             if(i == m-round-1 && j == round){
                 colAdder = 0;
                 rowAdder = -1;
@@ -43,6 +43,7 @@ public class solving2 {
             j+=colAdder;
             
         }
+      
         return res;
     }
 
